@@ -5,12 +5,12 @@ import iconMarketing from '../../assets/img/icon-marketing.jpg'
 import iconStrategy from '../../assets/img/icon-strategy.jpg'
 import iconManagement from '../../assets/img/icon-management.jpg'
 
-import bullion from '../../assets/img/bullion.png'
-import iconPublishedGame from '../../assets/img/icon-published-game.jpg'
-import iconStrongTeam from '../../assets/img/icon-strong-team.jpg'
-import iconProjectsDelivered from '../../assets/img/icon-projects-delivered.jpg'
-import iconFortune from '../../assets/img/icon-fortune.jpg'
-import iconRaisad from '../../assets/img/icon-raisad.jpg'
+// import bullion from '../../assets/img/bullion.png'
+// import iconPublishedGame from '../../assets/img/icon-published-game.jpg'
+// import iconStrongTeam from '../../assets/img/icon-strong-team.jpg'
+// import iconProjectsDelivered from '../../assets/img/icon-projects-delivered.jpg'
+// import iconFortune from '../../assets/img/icon-fortune.jpg'
+// import iconRaisad from '../../assets/img/icon-raisad.jpg'
 
 import bestClanLeft from '../../assets/img/best-clan-left.jpg'
 import bestClanRight from '../../assets/img/best-clan-right.jpg'
@@ -55,7 +55,7 @@ function PublishSection() {
                         <div className="clr"></div>
                     </div>
                 </div>
-                <div className="home_our_journey">
+                {/* <div className="home_our_journey">
                     <div className="container">
                         <div className="row">
                             <div className="wow slideInDown col-lg-12" style={{ visibility: 'visible', animationName: 'slideInDown' }}>
@@ -102,7 +102,7 @@ function PublishSection() {
                             <div className="clr"></div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="home_best_clan">
                     <div className="container">
                         <div className="row">

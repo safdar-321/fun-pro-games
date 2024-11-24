@@ -8,6 +8,9 @@ import TopTitle from './components/TopTitle';
 
 import HomeSection from './components/home/HomeSection';
 import PublishSection from './components/home/PublishSection';
+import ContactUs from './components/contactUs/ContactUs';
+import AboutUs from './components/aboutUs/AboutUs';
+import GameSection from './components/games/GameSection';
 
 
 const router = createBrowserRouter(
@@ -18,11 +21,6 @@ const router = createBrowserRouter(
                     <TopTitle title="" />
                     <HomeSection />
                     <PublishSection />
-                    {/* <SkillSection />
-                    <PortfolioSection />
-                    <ServicesSection />
-                    <ServicesFeatuers />
-                    <TestimonialSection /> */}
                 </>
             } />
             <Route path='/home' element={
@@ -30,11 +28,24 @@ const router = createBrowserRouter(
                     <TopTitle title="Home - " />
                     <HomeSection />
                     <PublishSection />
-                    {/* <SkillSection />
-                    <PortfolioSection />
-                    <ServicesSection />
-                    <ServicesFeatuers />
-                    <TestimonialSection /> */}
+                </>
+            } />
+            <Route path='/about-us' element={
+                <>
+                    <TopTitle title="About Us - " />
+                    <AboutUs />
+                </>
+            } />
+            <Route path='/games' element={
+                <>
+                    <TopTitle title="Games - " />
+                    <GameSection />
+                </>
+            } />
+            <Route path='/contact-us' element={
+                <>
+                    <TopTitle title="Contact Us - " />
+                    <ContactUs />
                 </>
             } />
         </Route>

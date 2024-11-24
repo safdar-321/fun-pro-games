@@ -27,13 +27,13 @@ function Navbar() {
                                         <NavLink to="/home">Home</NavLink>
                                     </li>
                                     <li className="">
-                                        <NavLink to="/about">About</NavLink>
+                                        <NavLink to="/about-us">About</NavLink>
                                     </li>
                                     <li className="">
                                         <NavLink to="/games">Games</NavLink>
                                     </li>
                                     <li className="">
-                                        <NavLink to="/contact">Contact</NavLink>
+                                        <NavLink to="/contact-us">Contact US</NavLink>
                                     </li>
                                 </ul>
                             </div>
@@ -43,16 +43,16 @@ function Navbar() {
                                     <span className="closebtn" onClick={toggleMenu}>×</span>
                                     <ul>
                                         <li className="">
-                                            <a to="/">Home</a>
+                                            <NavLink to="/">Home</NavLink>
                                         </li>
                                         <li className="">
-                                            <a to="/about">About</a>
+                                            <NavLink to="/about-us">About</NavLink>
                                         </li>
                                         <li>
-                                            <a to="/games">Games</a>
+                                            <NavLink to="/games">Games</NavLink>
                                         </li>
                                         <li>
-                                            <a to="/contact">Contact</a>
+                                            <NavLink to="/contact-us">Contact Us</NavLink>
                                         </li>
                                     </ul>
                                 </div>
