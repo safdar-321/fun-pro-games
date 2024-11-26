@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, useLocation } from 'react-router-dom'
 import funProGames from '../../assets/images/logo-fun-pro-games.png'
 
 function Navbar() {
@@ -9,6 +9,14 @@ function Navbar() {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+
+    const [active, setActive] = useState('/home');
+    const location = useLocation();
+
+    // Update active state based on current location
+    React.useEffect(() => {
+        setActive(location.pathname);
+    }, [location]);
 
     return (
         <>
@@ -23,17 +31,25 @@ function Navbar() {
                             </div>
                             <div className="main_menu">
                                 <ul>
-                                    <li className="active">
-                                        <NavLink to="/home">Home</NavLink>
+                                    <li className={active === '/home' ? 'active' : ''}>
+                                        <NavLink to="/home" onClick={() => setActive('/home')}>
+                                            Home
+                                        </NavLink>
                                     </li>
-                                    <li className="">
-                                        <NavLink to="/about-us">About</NavLink>
+                                    <li className={active === '/about-us' ? 'active' : ''}>
+                                        <NavLink to="/about-us" onClick={() => setActive('/about-us')}>
+                                            About
+                                        </NavLink>
                                     </li>
-                                    <li className="">
-                                        <NavLink to="/games">Games</NavLink>
+                                    <li className={active === '/games' ? 'active' : ''}>
+                                        <NavLink to="/games" onClick={() => setActive('/games')}>
+                                            Games
+                                        </NavLink>
                                     </li>
-                                    <li className="">
-                                        <NavLink to="/contact-us">Contact US</NavLink>
+                                    <li className={active === '/contact-us' ? 'active' : ''}>
+                                        <NavLink to="/contact-us" onClick={() => setActive('/contact-us')}>
+                                            Contact Us
+                                        </NavLink>
                                     </li>
                                 </ul>
                             </div>
@@ -42,17 +58,25 @@ function Navbar() {
                                 <div id="mySidenav" className={`sidenav ${isMenuOpen ? "open" : ""}`}>
                                     <span className="closebtn" onClick={toggleMenu}>×</span>
                                     <ul>
-                                        <li className="">
-                                            <NavLink to="/">Home</NavLink>
+                                        <li className={active === '/home' ? 'active' : ''}>
+                                            <NavLink to="/home" onClick={() => setActive('/home')}>
+                                                Home
+                                            </NavLink>
                                         </li>
-                                        <li className="">
-                                            <NavLink to="/about-us">About</NavLink>
+                                        <li className={active === '/about-us' ? 'active' : ''}>
+                                            <NavLink to="/about-us" onClick={() => setActive('/about-us')}>
+                                                About
+                                            </NavLink>
                                         </li>
-                                        <li>
-                                            <NavLink to="/games">Games</NavLink>
+                                        <li className={active === '/games' ? 'active' : ''}>
+                                            <NavLink to="/games" onClick={() => setActive('/games')}>
+                                                Games
+                                            </NavLink>
                                         </li>
-                                        <li>
-                                            <NavLink to="/contact-us">Contact Us</NavLink>
+                                        <li className={active === '/contact-us' ? 'active' : ''}>
+                                            <NavLink to="/contact-us" onClick={() => setActive('/contact-us')}>
+                                                Contact Us
+                                            </NavLink>
                                         </li>
                                     </ul>
                                 </div>

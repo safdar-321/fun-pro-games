@@ -1194,7 +1194,7 @@ img.like_title {
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     width: 100%;
-    /* background-image: url(../img/project_bg.jpg); */
+    background-image: url(../img/project_bg.jpg);
     background-repeat: no-repeat;
     text-align: center;
     background-size: cover;
@@ -2414,7 +2414,7 @@ img.like_title {
     margin: 0;
     padding: 120px 0 20px;
     width: 100%;
-    /* background-image: url(../img/contact_bg.jpg); */
+    background-image: url(../img/contact_bg.jpg);
     background-repeat: no-repeat;
     background-position: top left;
     background-size: 100%;
@@ -2456,11 +2456,10 @@ img.like_title {
 .social_icons_contact a {
     text-decoration: none;
     outline: none;
-    margin-right: 20px
-}
-
-.social_icons_contact a img {
-    max-width: 40px
+    margin-right: 20px;
+    background-color: #000000;
+    width: 200px;
+    height: 200px;
 }
 
 .contact_section_2 {
