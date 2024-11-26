@@ -4114,3 +4114,73 @@ h3.application_title {
     }
 
 }
+
+
+.section-title {
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: -5px;
+    position: relative;
+    z-index: 1;
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.case-study-item {
+    margin-bottom: 30px;
+    position: relative;
+    transition: .5s;
+}
+
+.case-study-item:hover {
+    transform: translate(0, -5px);
+}
+
+.case-study-item:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background: linear-gradient(0deg, rgb(0, 0, 0) 11%, rgba(0, 0, 0, 0) 98%);
+    transition: .5s;
+}
+
+.case-study-item:hover:before {
+    background: linear-gradient(0deg, #ffd200 11%, rgba(255, 73, 0, 0) 98%);
+}
+
+.case-study-item img {
+    border-radius: 5px;
+}
+
+.case-study-item .inner {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 30px;
+}
+
+.case-study-item:hover .inner span {
+    color: #fff;
+}
+
+.case-study-item .inner span {
+    display: block;
+    color: #ffd200;
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.case-study-item .inner h3 {
+    margin-bottom: 0;
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+.case-study-item .inner h3 a {
+    color: #fff;
+}

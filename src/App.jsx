@@ -11,6 +11,7 @@ import PublishSection from './components/home/PublishSection';
 import ContactUs from './components/contactUs/ContactUs';
 import AboutUs from './components/aboutUs/AboutUs';
 import GameSection from './components/games/GameSection';
+import CaseStudy from './components/home/CaseStudy';
 
 
 const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
                     <TopTitle title="" />
                     <HomeSection />
                     <PublishSection />
+                    <CaseStudy />
                 </>
             } />
             <Route path='/home' element={
@@ -28,6 +30,7 @@ const router = createBrowserRouter(
                     <TopTitle title="Home - " />
                     <HomeSection />
                     <PublishSection />
+                    <CaseStudy />
                 </>
             } />
             <Route path='/about-us' element={
