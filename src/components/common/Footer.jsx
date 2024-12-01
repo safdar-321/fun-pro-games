@@ -71,23 +71,23 @@ function Footer() {
                                 <h3 className="widget_title">Get in touch</h3>
                                 <p>
                                     <img className="footer-icon" alt="" src={iconPhone} />
-                                    <a href="tel:+923104053811">+92-310-4053-811</a>
+                                    <a href="tel:+923458777594">+92345-8777594</a>
                                 </p>
                                 <p>
                                     <img className="footer-icon" alt="" src={iconEmail} />
-                                    <a href="mailto:hello@gamedistrict.co">hello@gamedistrict.co</a>
+                                    <a href="mailto:info@funprogames.com.pk">info@funprogames.com.pk</a>
                                 </p>
                                 <p>
                                     <img className="footer-icon" alt="Facebook" src={iconFacebook} />
-                                    <a href="https://www.facebook.com/gamedistrict1/"> Facebook</a>
+                                    <a href="#"> Facebook</a>
                                 </p>
                                 <p>
                                     <img className="footer-icon" alt="Instagram" src={iconInstagram} />
-                                    <a href="https://www.instagram.com/gamedistrict.co/"> Instagram</a>
+                                    <a href="#"> Instagram</a>
                                 </p>
                                 <p>
                                     <img className="footer-icon" alt="Linked In" src={iconLinkedin} />
-                                    <a href="https://www.linkedin.com/company/game-district/about/">Linked In</a>
+                                    <a href="#">Linked In</a>
                                 </p>
                             </div>
                         </div>
