@@ -1,4 +1,7 @@
 import React from "react";
+import CaseStudy from '../home/CaseStudy'
+
+
 import LeftIcon from "../../assets/img/left-icon.jpg";
 import IconG from "../../assets/img/icon-g.jpg";
 import RightIcon from "../../assets/img/right-icon.jpg";
@@ -6,10 +9,7 @@ import WhyClient1 from "../../assets/img/why-client-1.jpg";
 import WhyClient2 from "../../assets/img/why-client-2.jpg";
 import WhyClient3 from "../../assets/img/why-client-3.jpg";
 import WhyClient4 from "../../assets/img/why-client-4.jpg";
-import GameIcon1 from "../../assets/img/game-icon-1.jpg";
-import GameIcon2 from "../../assets/img/game-icon-2.jpg";
-import GameIcon3 from "../../assets/img/game-icon-3.jpg";
-import GameIcon4 from "../../assets/img/game-icon-4.jpg";
+
 import Ring from "../../assets/img/ring.png";
 import Era from "../../assets/img/era.jpg";
 import Acquisition from "../../assets/img/icon-user-acquisition.jpg";
@@ -39,10 +39,7 @@ function GameSection() {
           <div className="container">
             <div className="whygames_section_inner">
               <div className="row">
-                <div
-                  className="wow fadeInDown col-lg-12"
-                  style={{ visibility: "visible", animationName: "fadeInDown" }}
-                >
+                <div className="wow fadeInDown col-lg-12" style={{ visibility: "visible", animationName: "fadeInDown" }} >
                   <div className="whyicons">
                     <img className="whyleft-icon" src={LeftIcon} alt="" />
                     <img className="whycenter-icon" src={IconG} alt="" />
@@ -60,105 +57,33 @@ function GameSection() {
         <div className="whygames_section_2">
           <div className="container">
             <div className="row">
-              <div
-                className="wow slideInLeft col-lg-3"
-                style={{ visibility: "visible", animationName: "slideInLeft" }}
-              >
+              <div className="wow slideInLeft col-lg-3" style={{ visibility: "visible", animationName: "slideInLeft" }} >
                 <img src={WhyClient1} alt="" />
               </div>
-              <div
-                className="wow slideInLeft col-lg-3"
-                style={{ visibility: "visible", animationName: "slideInLeft" }}
-              >
+              <div className="wow slideInLeft col-lg-3" style={{ visibility: "visible", animationName: "slideInLeft" }} >
                 <img src={WhyClient2} alt="" />
               </div>
-              <div
-                className="wow slideInLeft col-lg-3"
-                style={{ visibility: "visible", animationName: "slideInLeft" }}
-              >
+              <div className="wow slideInLeft col-lg-3" style={{ visibility: "visible", animationName: "slideInLeft" }} >
                 <img src={WhyClient3} alt="" />
               </div>
-              <div
-                className="wow slideInLeft col-lg-3"
-                style={{ visibility: "visible", animationName: "slideInLeft" }}
-              >
+              <div className="wow slideInLeft col-lg-3" style={{ visibility: "visible", animationName: "slideInLeft" }} >
                 <img src={WhyClient4} alt="" />
               </div>
             </div>
           </div>
           <div className="clr"></div>
         </div>
-        <div className="whygames_section_3">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-6">
-                <div
-                  className="wow slideInLeft content_details"
-                  style={{
-                    visibility: "visible",
-                    animationName: "slideInLeft",
-                  }}
-                >
-                  <h4>Create your next</h4>
-                  <h2>Viral Game App</h2>
-                  <p>
-                    85% of the top grossing apps are games. App Store growing at
-                    an unprecedented rate has made game development an
-                    opportunity of our decade. Turn your idea into reality and
-                    build the next viral mobile game.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="game_app">
-                  <div className=" game_icons">
-                    <img
-                      className="margin_icon_1 wow rollIn"
-                      src={GameIcon1}
-                      alt=""
-                      style={{ visibility: "visible", animationName: "rollIn" }}
-                    />
-                    <img
-                      className="margin_icon_2 wow rollIn"
-                      src={GameIcon2}
-                      alt=""
-                      style={{ visibility: "visible", animationName: "rollIn" }}
-                    />
-                    <img
-                      className="wow rollIn"
-                      src={GameIcon3}
-                      alt=""
-                      style={{ visibility: "visible", animationName: "rollIn" }}
-                    />
-                    <img
-                      className="margin_icon_3 wow rollIn"
-                      src={GameIcon4}
-                      alt=""
-                      style={{ visibility: "visible", animationName: "rollIn" }}
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="clr"></div>
-        </div>
+
         <div className="whygames_section_4">
           <img src={Ring} alt="" className="ring_whygames" />
           <div className="container">
             <div className="row">
-              <div
-                className="wow slideInLeft col-lg-6"
-                style={{ visibility: "visible", animationName: "slideInLeft" }}
-              >
+              <div className="wow slideInLeft col-lg-6" style={{ visibility: "visible", animationName: "slideInLeft" }} >
                 <div className="era_img">
                   <img src={Era} alt="" />
                 </div>
               </div>
-              <div
-                className="wow slideInRight col-lg-6"
-                style={{ visibility: "visible", animationName: "slideInRight" }}
-              >
+              <div className="wow slideInRight col-lg-6" style={{ visibility: "visible", animationName: "slideInRight" }} >
                 <div className="text_area">
                   <h4>the era of</h4>
                   <h2>Mobile Games</h2>
@@ -181,20 +106,18 @@ function GameSection() {
           </div>
           <div className="clr"></div>
         </div>
+        <CaseStudy />
         <div className="whygames_section_5">
           <div className="container">
             <div className="row">
-              <div
-                className="wow slideInLeft col-lg-6"
-                style={{ visibility: "visible", animationName: "slideInLeft" }}
-              >
+              <div className="wow slideInLeft col-lg-6" style={{ visibility: "visible", animationName: "slideInLeft" }} >
                 <div className="text_2ndarea">
                   <h4>the challenge of</h4>
                   <h2>Delivering The Best</h2>
                   <p>
                     The rising numbers of mobile users &amp; digital opinions
                     has made game development a crucial &amp; challenging task.
-                    But our team at Game District counters all the hurdles with
+                    But our team at Fun Pro Games counters all the hurdles with
                     professional approach &amp; tactics.
                   </p>
                   <p>
@@ -204,10 +127,7 @@ function GameSection() {
                   </p>
                 </div>
               </div>
-              <div
-                className="wow slideInRight col-lg-6"
-                style={{ visibility: "visible", animationName: "slideInRight" }}
-              >
+              <div className="wow slideInRight col-lg-6" style={{ visibility: "visible", animationName: "slideInRight" }} >
                 <div className="services_delivering_raw">
                   <div className="services_delivering margintop">
                     <img src={Acquisition} alt="" />
@@ -250,10 +170,7 @@ function GameSection() {
         <div className="whygames_section_6">
           <div className="container">
             <div className="row">
-              <div
-                className="wow slideInDown col-lg-12"
-                style={{ visibility: "visible", animationName: "slideInDown" }}
-              >
+              <div className="wow slideInDown col-lg-12" style={{ visibility: "visible", animationName: "slideInDown" }}  >
                 <div className="text_3rdarea">
                   <h4>How can we help in</h4>
                   <h2>Your Venture</h2>
@@ -276,24 +193,9 @@ function GameSection() {
             <div className="row">
               <div className="col-lg-12">
                 <div className="venture_icon">
-                  <img
-                    className="margin_icon_1 wow rollIn"
-                    src={Venture1}
-                    alt=""
-                    style={{ visibility: "visible", animationName: "rollIn" }}
-                  />
-                  <img
-                    className="margin_icon_2 wow rollIn"
-                    src={Venture2}
-                    alt=""
-                    style={{ visibility: "visible", animationName: "rollIn" }}
-                  />
-                  <img
-                    className="margin_icon_3 wow rollIn"
-                    src={Venture3}
-                    alt=""
-                    style={{ visibility: "visible", animationName: "rollIn" }}
-                  />
+                  <img className="margin_icon_1 wow rollIn" src={Venture1} alt="" style={{ visibility: "visible", animationName: "rollIn" }} />
+                  <img className="margin_icon_2 wow rollIn" src={Venture2} alt="" style={{ visibility: "visible", animationName: "rollIn" }}/>
+                  <img className="margin_icon_3 wow rollIn" src={Venture3} alt="" style={{ visibility: "visible", animationName: "rollIn" }} />
                 </div>
               </div>
             </div>
@@ -304,13 +206,7 @@ function GameSection() {
           <div className="whygames_section_7inner">
             <div className="container">
               <div className="row">
-                <div
-                  className="wow slideInLeft col-lg-12"
-                  style={{
-                    visibility: "visible",
-                    animationName: "slideInLeft",
-                  }}
-                >
+                <div className="wow slideInLeft col-lg-12" style={{ visibility: "visible", animationName: "slideInLeft", }} >
                   <div className="text_4tharea">
                     <h4>It all starts with</h4>
                     <h2>The Right Strategy</h2>
@@ -323,7 +219,7 @@ function GameSection() {
                       greatness.
                     </p>
                     <p>
-                      At Game District, we undrestand this. Our product managers
+                      At Fun Pro Games, we undrestand this. Our product managers
                       worked on a wide range of top selling game apps, which
                       cumulatively achieved tens of millions of downloads.{" "}
                     </p>
@@ -342,64 +238,7 @@ function GameSection() {
           </div>
           <div className="clr"></div>
         </div>
-        <div className="home_section_inside_gamedistrict">
-          <div className="container">
-            <div className="row">
-              <div
-                className="wow slideInDown col-lg-12"
-                style={{ visibility: "visible", animationName: "slideInDown" }}
-              >
-                <img alt="" src={Inside} />
-                <p>
-                  Game District longs for fresh &amp; young minds who can mould
-                  their approaches with the changing challenges of the digital
-                  industry. A growing mind is one of the cherished sights for us
-                  as it’s a proof of growth &amp; success in the right
-                  direction.
-                </p>
-              </div>
-            </div>
-            <div className="clr"></div>
-          </div>
-          <div
-            className="wow slideOutUp inside_gamedistrict_pic"
-            style={{ visibility: "visible", animationName: "slideOutUp" }}
-          >
-            <div className="inside_img">
-              <img src={InsideG1} alt="" />
-              <img src={InsideG2} alt="" />
-            </div>
-            <div className="inside_img2">
-              <img src={InsideG3} alt="" />
-              <img src={InsideG4} alt="" />
-            </div>
-            <div className="inside_img3">
-              <img src={InsideG5} alt="" />
-              <img src={InsideG6} alt="" />
-            </div>
-            <div className="inside_img4">
-              <img src={InsideG7} alt="" />
-              <img src={InsideG8} alt="" />
-            </div>
-            <div className="inside_img5">
-              <img src={InsideG9} alt="" />
-              <img src={InsideG10} alt="" />
-            </div>
-          </div>
-        </div>
-        <div className="home_section_joinus">
-          <div className="container">
-            <div className="row">
-              <div className="col-lg-12">
-                <a className="apply_now" href="/whygames">
-                  Apply Now
-                </a>
-              </div>
-            </div>
-            <div className="clr"></div>
-          </div>
-        </div>
-        <div className="clr"></div>
+       
       </div>
     </>
   );

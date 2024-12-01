@@ -2697,7 +2697,7 @@ img.like_title {
     margin: 0 auto;
     padding: 80px 0 80px 0;
     width: 100%;
-    /* background-image: url(../img/whygames_section_inner2.jpg); */
+    background-image: url(../img/whygames_section_inner2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100%;
@@ -2768,7 +2768,7 @@ img.like_title {
     margin: 0 0;
     padding: 195px 0;
     width: 100%;
-    /* background-image: url(../img/game-app-bg.png); */
+    background-image: url(../img/game-app-bg.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -2819,7 +2819,7 @@ img.like_title {
     padding: 90px 0 240px 0;
     width: 100%;
     background-color: #FFF;
-    /* background-image: url(../img/publishing-games-bg2.png); */
+    background-image: url(../img/publishing-games-bg2.png);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
@@ -2876,7 +2876,7 @@ img.like_title {
     margin: 40px 0 0 0;
     padding: 60px 0% 0 11%;
     width: 100%;
-    /* background-image: url(../img/dots-text_2ndarea.png); */
+    background-image: url(../img/dots-text_2ndarea.png);
     background-repeat: no-repeat;
     background-position: left top;
 }
@@ -3034,7 +3034,7 @@ img.like_title {
     padding: 0 0 60px 0;
     width: 100%;
     background-color: #FFF;
-    /* background-image: url(../img/publishing-games-bg2.png); */
+    background-image: url(../img/publishing-games-bg2.png);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
@@ -3044,7 +3044,7 @@ img.like_title {
     margin: 0 0 0 0;
     padding: 0px 0 0px 0;
     width: 100%;
-    /* background-image: url(../img/right_strategy.jpg); */
+    background-image: url(../img/right_strategy.jpg);
     background-repeat: no-repeat;
     background-position: right center;
 }
@@ -3086,7 +3086,7 @@ img.like_title {
 .home_section_joinus {
     float: left;
     margin: -30px 0 0 0;
-    padding: 34% 0 3% 0;
+    padding: 3% 0 3% 0;
     width: 100%;
     /* background-image: url(../img/joinus.jpg); */
     background-repeat: no-repeat;
