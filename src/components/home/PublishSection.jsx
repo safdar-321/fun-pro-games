@@ -14,6 +14,7 @@ import iconManagement from '../../assets/img/icon-management.jpg'
 
 import bestClanLeft from '../../assets/img/best-clan-left.jpg'
 import bestClanRight from '../../assets/img/best-clan-right.jpg'
+import { NavLink } from 'react-router-dom'
 
 function PublishSection() {
     return (
@@ -112,7 +113,8 @@ function PublishSection() {
                             <div className="wow slideInDown col-lg-4 col-sm-12" style={{ visibility: 'visible', animationName: 'slideInDown' }}>
                                 <h1>It’s the best clan you can find online</h1>
                                 <p>Fun Pro Games longs for fresh &amp; young minds who can mould their approaches with the changing challenges of the digital industry. A growing mind is one of the cherished sights for us as it’s a proof of growth &amp; success in the right direction.</p>
-                                <a className="learn_more" href="/about">About Us</a>
+                                <NavLink className="learn_more" to="/about-us">About Us</NavLink>
+
                             </div>
                             <div className="wow slideInRight col-lg-4 col-sm-12" style={{ visibility: 'visible', animationName: 'slideInRight' }}>
                                 <img className="margin_top" alt="best-clan-right" src={bestClanRight} />

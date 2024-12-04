@@ -9,6 +9,8 @@ import iconFacebook from '../../assets/images/icon_facebook.jpg'
 import iconInstagram from '../../assets/images/icon_instagram.jpg'
 import iconLinkedin from '../../assets/images/icon_linkedin.jpg'
 
+import { NavLink } from 'react-router-dom'
+
 function Footer() {
     return (
         <>
@@ -17,11 +19,11 @@ function Footer() {
                     <div className="row">
                         <div className="col-lg-3">
                             <div className="widget">
-                                <img className="footer_logonew" src={footerLogo} alt="Game District" title="Game District" />
+                                <img className="footer_logonew" src={footerLogo} alt="Fun Pro Games" title="Fun Pro Games" />
                                 <p>Making you realize the power of Digital Intelligence.</p>
                                 <img className="copy_right_icon" alt="icon" src={icons} />
                                 <div className="copy_right">
-                                    © Copyright Game District 2019,<br /> All Rights Reserved.
+                                    © Copyright Fun Pro Games 2019,<br /> All Rights Reserved.
                                 </div>
                             </div>
                         </div>
@@ -30,19 +32,10 @@ function Footer() {
                                 <h3 className="widget_title">company</h3>
                                 <ul className="menu">
                                     <li>
-                                        <a href="/">Home</a>
+                                        <NavLink to="/">Home</NavLink>
                                     </li>
                                     <li>
-                                        <a href="/about">About</a>
-                                    </li>
-                                    <li>
-                                        <a href="/solutions">Solutions</a>
-                                    </li>
-                                    <li>
-                                        <a href="/publishing">Publishing</a>
-                                    </li>
-                                    <li>
-                                        <a href="/whygames">Why Games</a>
+                                        <NavLink to="/about-us">About</NavLink>
                                     </li>
                                 </ul>
                             </div>
